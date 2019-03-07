@@ -1,0 +1,153 @@
+body {
+    font-family: "Georgia, 'Times New Roman', Times, serif";
+    padding:0;
+    margin:0;
+}
+
+
+
+body {
+    padding:0;
+    margin:0;
+    font-family:helvetica;
+    background:#eee;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    padding:0;
+    margin:0;
+}
+
+.wrapper {
+    max-width:100%;
+    background:white;
+    border-bottom:1px solid slategrey;
+}
+.header {
+    display:flex;
+    height:60px;
+    line-height:60px;
+    width:960px;
+    margin-left:auto;
+    margin-right:auto;
+   
+}
+
+.name {
+    background:teal;
+    color:white;
+    padding:0 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.slider {
+    flex:1;
+}
+.link {
+    padding:0 10px;
+    font-size:14px;
+    color:slategray;
+}
+.container {
+    width:960px;
+    margin:30px auto 80px auto;
+}
+.aboutMe {
+    border:1px solid slategray;
+    background:white;
+    padding:20px;
+}
+.personalInfo {
+    display:flex;
+    margin:20px 0 0 0;
+}
+.profilePicture {
+    width:200px;
+    height:200px;
+    margin:0 20px 0 0;
+}
+.aboutMeTitle {
+    color:teal;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding:10px 0 20px 0;
+    border-bottom:1px solid #999;
+}
+.bio {
+    color:#999;
+    font-size:14px;
+    padding:20px 0 0 0;
+}
+.label {
+    padding:5px 0 5px 0;
+}
+    
+
+footer {
+    height:60px;
+    line-height:60px;
+    text-align:center;
+    background:#666666;
+    color:#fff;
+    border-top:8px solid teal;
+    position:fixed;
+    bottom:0;
+    width:100%;
+}
+
+@media screen and (max-width: 980px) {
+        body {
+        background-color: #eee; 
+    }
+    .wrapper {
+        width: 100%;
+        padding: 20px;
+      }
+    .container {
+        width: 100%;
+      }
+    .header {
+        width: 100%;
+      }
+    .slider {
+        width:100%;
+    }
+   }
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: #eee; 
+    }
+    .wrapper {
+        width: 100%;
+        padding: 20px;
+      }
+    .container {
+        width: 100%;
+      }
+    .header {
+        width: 100%;
+      }
+      .slider {
+        width:100%;
+    }
+    }
+
+@media screen and (max-width: 640px) {
+    body {
+        background-color: #eee; 
+    }
+    .wrapper {
+        width: 100%;
+        padding: 20px;
+      }
+    .container {
+        width: 100%;
+      }
+    .header {
+        width: 100%;
+        position: fixed; 
+    }
+    .slider {
+        width:100%;
+        position: fixed;
+    }
+   }
